@@ -5,13 +5,13 @@ class App extends Component {
     render() {
 
         return(
-            <div id="main">
-                <ol>
-                {relative1 , relativeListItem1}
-                {relative2 , relativeListItem2}
-                {relative3 , relativeListItem3}
-                </ol>
-            </div>
+            <>
+               <ol key = {'relativeList'}>
+                   <li key = {'relativeListItem1'}>Item1</li>
+                   <li key = {'relativeListItem2'}>Item2</li>
+                   <li key = {'relativeListItem3'}>Item3</li>
+               </ol>
+            </ >
         )
     }
 }
